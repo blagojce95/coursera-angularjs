@@ -9,7 +9,7 @@
     $scope.message = "";
 
     $scope.check = function () {
-      var parts = $scope.list.split(", ");
+      var parts = $scope.list.split(",");
       var numberOfDishes = 0;
       for(var i = 0; i < parts.length; ++i) {
         if(parts[i] != "") {
